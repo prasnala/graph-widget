@@ -1,0 +1,19 @@
+{
+  "name": "graph-widget",
+  "version": "1.0.0",
+  "description": "Create Dashboard graph widget using reactjs, wp rest api, graph script https://recharts.org/en-US/.data is in database and call by rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "prashant",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.9.0"
+  },
+  "dependencies": {
+    "recharts": "^2.7.2"
+  }
+}

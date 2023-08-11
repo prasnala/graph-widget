@@ -1,0 +1,16 @@
+{
+    "name": "prashant/graph-widget",
+    "description": "Create Dashboard graph widget using reactjs, wp rest api, graph script https://recharts.org/en-US/.data is in database and call by rest api",
+    "autoload": {
+        "psr-4": {
+            "Prashant\\GraphWidget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "prasnala",
+            "email": "prasnala@yahoo.com"
+        }
+    ],
+    "require": {}
+}
