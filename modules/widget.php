@@ -22,7 +22,7 @@ add_action( 'admin_enqueue_scripts', 'add_css_javascript_file' );
 * Add css and js file. This is called by admin_enqueue_scripts action hook
 */
 function add_css_javascript_file() {
-    wp_enqueue_style( 'gw-style', PLUGIN_DIR_URL . 'build/index.css' );
+    //wp_enqueue_style( 'gw-style', PLUGIN_DIR_URL . 'build/index.css' );
     wp_enqueue_script( 'gw-script', PLUGIN_DIR_URL . 'build/index.js', array( 'wp-element' ), '1.0.0', true );
 }
 
