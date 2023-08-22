@@ -128,7 +128,6 @@ function on_plugin_deactivation() {
 	flush_rewrite_rules();
     delete_all_analysis_posts();
     delete_all_analysis_postmetas();
-
 }
 /**
 * Delete all analysis posts from the database This is used to clean out all old analysis posts that were created.
